@@ -28,6 +28,10 @@ public class BookController {
         return mv;
     }
 
+    public void test(){
+        System.out.println(123);
+    }
+
     @RequestMapping("/update")
     public ModelAndView update(Book book){
 
