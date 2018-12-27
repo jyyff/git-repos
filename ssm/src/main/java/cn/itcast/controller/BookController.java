@@ -28,10 +28,6 @@ public class BookController {
         return mv;
     }
 
-    public void test(){
-        System.out.println(1235555666);
-    }
-
 
 
     @RequestMapping("/update")
